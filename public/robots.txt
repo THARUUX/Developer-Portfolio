@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tharuux.click
+
+# Sitemaps
+Sitemap: https://tharuux.click/sitemap.xml

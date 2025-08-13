@@ -24,3 +24,65 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.manrope-100 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 100;
+}
+.manrope-200 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 200;
+}
+.manrope-300 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 300;
+}
+.manrope-400 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 400;
+}
+.manrope-500 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 500;
+}
+.manrope-600 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 600;
+}
+.manrope-700 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 700;
+}
+.manrope-800 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 800;
+}
+.manrope-900 {
+  font-family: var(--font-manrope), sans-serif;
+  font-weight: 900;
+}
+
+
+
+
+.gb-1{
+  background-color:hsla(0,0%,0%,1);
+  background-image:
+  radial-gradient(at 0% 67%, hsla(101,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 48% 0%, hsla(289,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(245,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 100% 62%, hsla(158,0%,0%,1) 0px, transparent 50%),
+  radial-gradient(at 84% 65%, hsla(240,0%,29%,1) 0px, transparent 50%),
+  radial-gradient(at 30% 33%, hsla(343,0%,49%,1) 0px, transparent 50%);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
