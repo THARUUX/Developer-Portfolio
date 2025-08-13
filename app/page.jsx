@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="Home" className="relative w-screen h-screen flex flex-col justify-end py-30 gap-30">
+      <section id="Home" className="relative w-screen h-screen flex flex-col justify-end px-5 lg:px-0 py-30 gap-30">
         <Image className="w-full h-full object-cover absolute top-0 left-0 select-none -z-10" data-aos='zoom-out' data-aos-duration='3000' draggable='false' src='/tharuux.jpg' alt="hero image of tharuux" fill/>
         <div className="flex flex-col lg:flex-row w-full">
           <div className="w-full lg:w-1/2 flex flex-col lg:items-end gap-2 px-5">
