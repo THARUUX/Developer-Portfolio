@@ -197,7 +197,7 @@ export default function Home() {
         className="bg-black flex items-center justify-center relative w-full"
       >
         <SplineM />
-        <div className="absolute z-50 left-0 w-full h-15 bottom-0 bg-black" ></div>
+        <div className="absolute z-50 left-0 w-full h-15 lg:h-15 bottom-0 bg-black" ></div>
         <div className="w-full h-full  flex justify-center">
           <div className="flex flex-col gap-20 max-w-[2000px] py-20 px-5 lg:px-20">
             <div className="w-full text-center flex flex-col gap-5">
@@ -290,22 +290,22 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center w-full bg-white/15 border border-gray-500 p-10">
             <div className="w-full lg:w-1/2 px-0 lg:px-10">
               <form action="" className="w-full flex flex-col gap-5">
-                <input data-aos='fade-in' data-aos-duration='2000' type="name" placeholder="Enter your Name" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
-                <input data-aos='fade-in' data-aos-duration='2000' type="email" placeholder="Enter your Email" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
-                <input data-aos='fade-in' data-aos-duration='2000' type="tele" placeholder="Enter your contact number" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
-                <button data-aos='fade-in' data-aos-duration='2000' type="submit" className="w-full border rounded-full py-3">SUBMIT</button>
+                <input  type="name" placeholder="Enter your Name" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
+                <input  type="email" placeholder="Enter your Email" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
+                <input  type="tele" placeholder="Enter your contact number" className="border-b border-gray-400 px-3 py-1 focus:outline-0" />
+                <button  type="submit" className="w-full border rounded-full py-3">SUBMIT</button>
               </form>
             </div>
             <div className="w-full lg:w-1/2 h-full items-center justify-center flex flex-col gap-5 ">
               <div className="flex flex-col items-center h-fit gap2 lg:gap-5 mt-10 lg:mt-0">
-                <div data-aos='fade-in' data-aos-duration='2000' className="flex tracking-widest justify-center items-center gap-3 manrope-400">
+                <div  className="flex tracking-widest justify-center items-center gap-3 manrope-400">
                   hello@tharuux.click
                 </div>
                 <div className="flex justify-between text-3xl gap-10 py-5">
-                  <Link data-aos='fade-up' data-aos-delay='300' data-aos-duration='2000' href={'https://github.com/THARUUX'}><FaGithub /></Link>
-                  <Link data-aos='fade-up' data-aos-delay='600' data-aos-duration='2000' href={'https://facebook.com/THARUUX'}><FaFacebook /></Link>
-                  <Link data-aos='fade-up' data-aos-delay='900' data-aos-duration='2000' href={'https://instagram.com/tharuux-ofc'}><FaInstagram /></Link>
-                  <Link data-aos='fade-up' data-aos-delay='1200' data-aos-duration='2000' href={'https://wa.me/+94789731507'}><FaWhatsapp /></Link>
+                  <Link href={'https://github.com/THARUUX'}><FaGithub /></Link>
+                  <Link href={'https://facebook.com/THARUUX'}><FaFacebook /></Link>
+                  <Link href={'https://instagram.com/tharuux-ofc'}><FaInstagram /></Link>
+                  <Link  href={'https://wa.me/+94789731507'}><FaWhatsapp /></Link>
                 </div>
                 <div data-aos='fade-in text-xs lg:text-md' data-aos-duration='2000' className="opacity-50">#tharuux #developer #tharusha #damsara #zynex</div>
               </div>
@@ -314,7 +314,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="w-full flex flex-col py-20 lg:pb-10 ">
+      <footer className="w-full flex flex-col py-5 lg:py-10 ">
         <div className="tracking-[100%] text-center text-2xl">THARUUX</div>
         <div className="tracking-[50%] text-center text-xs mt-5 mb-2">Designed & Developed by THARUUX</div>
         <div className="text-center text-xs opacity-50 mb-5 lg:mb-0">2025 copyrights allright reserved</div>
